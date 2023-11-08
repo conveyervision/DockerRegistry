@@ -23,7 +23,7 @@ services:
       traefik.http.services.dockerregistry.loadbalancer.server.port: 5000
     networks:
       WebGateway:
-        ipv4_address: 10.10.10.222
+        ipv4_address: 10.10.10.253
     restart: unless-stopped
 
 networks:
